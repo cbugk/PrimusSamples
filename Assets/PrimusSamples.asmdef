@@ -1,0 +1,19 @@
+{
+    "name": "PrimusSamples",
+    "rootNamespace": "",
+    "references": [
+        "GUID:70f1a2d37dbe31e44a01b1c64862362b",
+        "GUID:1e1fdfd9ab2158247bb9438f8b6f51aa",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
