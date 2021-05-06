@@ -1,0 +1,434 @@
+{
+    "name": "Input",
+    "maps": [
+        {
+            "name": "SceneMain",
+            "id": "8c39651d-4c28-4c81-8083-d078e0c54557",
+            "actions": [
+                {
+                    "name": "MgrScene_SwitchTo_MAIN",
+                    "type": "Button",
+                    "id": "6a4652cd-32df-49d4-a31c-26fed28b7292",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MgrScene_SwitchTo_BEACON_EDITOR",
+                    "type": "Button",
+                    "id": "c89b888c-9e93-4e10-9ae0-340e9925ba75",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MgrScene_SwitchTo_BIBLION_SHOWCASE",
+                    "type": "Button",
+                    "id": "ffaff0fa-a3ac-45c8-9c57-ace9cbad57f0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE",
+                    "type": "Button",
+                    "id": "ab970cc4-7b4f-4d5e-8eba-d384b6c6c917",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a17a053d-e306-406e-89d8-27bb142cea90",
+                    "path": "<Keyboard>/f12",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrScene_SwitchTo_MAIN",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3338f15e-a6db-47a8-87b6-85efbbbb4abe",
+                    "path": "<Keyboard>/f1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrScene_SwitchTo_BEACON_EDITOR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "584e96c6-1595-4dcd-85b7-91ead4912516",
+                    "path": "<Keyboard>/f2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrScene_SwitchTo_BIBLION_SHOWCASE",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01cd0499-6189-416a-85bb-2d654c52669b",
+                    "path": "<Keyboard>/f3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "SceneBeaconEditor",
+            "id": "b76f15e3-dbf4-436e-8452-06912fe9c1a9",
+            "actions": [
+                {
+                    "name": "MgrCanvas_ToggleEscMenu",
+                    "type": "Button",
+                    "id": "e28aba3e-051e-4989-87d0-ff37a6ff6d53",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MgrCanvas_UpdatePanelBeaconSelection",
+                    "type": "Button",
+                    "id": "38e29fa7-eb2c-4188-a23f-18f4a80df4fc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MgrScene_ToggleActive",
+                    "type": "Button",
+                    "id": "1c2d9f08-d7bb-4705-af50-339868963027",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ce445044-2b94-4c41-b91c-3e5674f0f358",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrCanvas_ToggleEscMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2b0bbfc8-22be-4b72-b0a8-38357e0cef30",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrCanvas_UpdatePanelBeaconSelection",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Button With One Modifier",
+                    "id": "562f3387-ed24-4075-8742-c6ca2fb85a28",
+                    "path": "ButtonWithOneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrScene_ToggleActive",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "89caa0c0-f716-4dae-9e5b-939b67676e54",
+                    "path": "<Keyboard>/ctrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrScene_ToggleActive",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "button",
+                    "id": "aaf4deff-9553-4dd0-9654-b065432af317",
+                    "path": "<Keyboard>/backquote",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrScene_ToggleActive",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "SceneBiblionShowcase",
+            "id": "bc4ff694-ad27-4574-a199-12c6970ffb8f",
+            "actions": [],
+            "bindings": []
+        },
+        {
+            "name": "SceneBibliothecaEditor",
+            "id": "31ea331c-59b7-4d33-a5d6-4faa808fd7fe",
+            "actions": [],
+            "bindings": []
+        },
+        {
+            "name": "Shared",
+            "id": "8e2e38dd-5e1e-4b9f-b77e-1b0065f7a795",
+            "actions": [
+                {
+                    "name": "Bcn_MoveLock",
+                    "type": "Button",
+                    "id": "627dbc38-b0d4-441e-9d66-58c5f74a62e5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Bcn_UnlockAdd",
+                    "type": "Button",
+                    "id": "1a40f72d-76ae-4c44-b1b7-a86a67e68722",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Bcn_Add",
+                    "type": "Button",
+                    "id": "67cd5fcd-435b-48c3-a836-43ae7049db7d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Bcn_Select",
+                    "type": "Button",
+                    "id": "53c7c9bf-2786-4b8c-9cb5-0ae1178d290e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap"
+                },
+                {
+                    "name": "Bcn_Delete",
+                    "type": "Button",
+                    "id": "50f9bf74-c09f-42ff-9f70-467e68d09653",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap"
+                },
+                {
+                    "name": "MgrCamera_SwitchTo_Toggle",
+                    "type": "Value",
+                    "id": "189a9410-6c69-4fea-9d04-09be30428b24",
+                    "expectedControlType": "Double",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MgrCamera_Zoom",
+                    "type": "Value",
+                    "id": "f1aa78e2-037c-4869-acf9-c87889c9b458",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MgrCamera_Move",
+                    "type": "Value",
+                    "id": "c5da0158-e8f3-4e54-a092-0c867504541c",
+                    "expectedControlType": "Vector2",
+                    "processors": "InvertVector2",
+                    "interactions": ""
+                },
+                {
+                    "name": "MgrCamera_UnlockMove",
+                    "type": "Button",
+                    "id": "37cf96fb-6ac8-41a8-88a8-3c323e48ba32",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5ccf6730-f11c-4510-883c-e41e923b53fd",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bcn_MoveLock",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a82c59ac-9569-4527-b7c6-56dde0924cad",
+                    "path": "<Keyboard>/alt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bcn_UnlockAdd",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c276d053-d505-45cc-95e9-c7804b8f5168",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bcn_Add",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05d30694-6e71-4ccf-bcad-38d4d2ab4501",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bcn_Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b1e8918f-d022-4f80-8b17-34843ae96e91",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bcn_Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2bf26a29-e4b8-4589-90d7-e3c2b6dc006b",
+                    "path": "<Keyboard>/delete",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bcn_Delete",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Button With Two Modifiers",
+                    "id": "b1991a8e-652d-4c6e-98cc-d6d2fdf8c36b",
+                    "path": "ButtonWithTwoModifiers",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrCamera_SwitchTo_Toggle",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier1",
+                    "id": "a4100a29-3ee1-4b43-b61b-0836f292e201",
+                    "path": "<Keyboard>/ctrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrCamera_SwitchTo_Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "modifier2",
+                    "id": "608a8b62-8c15-4bc4-ae24-b2cc97805db8",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrCamera_SwitchTo_Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "button",
+                    "id": "33c3d457-74ff-4294-be80-621d296581f2",
+                    "path": "<Keyboard>/OEM1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrCamera_SwitchTo_Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Button With One Modifier",
+                    "id": "a045141c-51aa-48e4-83c8-31b942111689",
+                    "path": "ButtonWithOneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrCamera_Zoom",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "39873c1f-6d00-4dd0-9db1-14f66c05784a",
+                    "path": "<Keyboard>/alt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrCamera_Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "button",
+                    "id": "90ccc76a-47a4-4c64-a68b-89ac1569af0f",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrCamera_Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "d7be0f16-21f7-44ec-bcc7-55824ff5e334",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrCamera_Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "57534f44-294b-4359-93df-65d5b07d4fed",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MgrCamera_UnlockMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
