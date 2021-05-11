@@ -2,7 +2,7 @@
     "name": "Input",
     "maps": [
         {
-            "name": "SceneMain",
+            "name": "SceneInit",
             "id": "8c39651d-4c28-4c81-8083-d078e0c54557",
             "actions": [
                 {
@@ -229,7 +229,7 @@
                     "interactions": "Tap"
                 },
                 {
-                    "name": "MgrCamera_SwitchTo_Toggle",
+                    "name": "OfcCamera_SwitchTo_Toggle",
                     "type": "Value",
                     "id": "189a9410-6c69-4fea-9d04-09be30428b24",
                     "expectedControlType": "Double",
@@ -237,7 +237,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "MgrCamera_Zoom",
+                    "name": "OfcCamera_Zoom",
                     "type": "Value",
                     "id": "f1aa78e2-037c-4869-acf9-c87889c9b458",
                     "expectedControlType": "Axis",
@@ -245,7 +245,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "MgrCamera_Move",
+                    "name": "OfcCamera_Move",
                     "type": "Value",
                     "id": "c5da0158-e8f3-4e54-a092-0c867504541c",
                     "expectedControlType": "Vector2",
@@ -253,7 +253,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "MgrCamera_UnlockMove",
+                    "name": "OfcCamera_UnlockMove",
                     "type": "Button",
                     "id": "37cf96fb-6ac8-41a8-88a8-3c323e48ba32",
                     "expectedControlType": "Button",
@@ -335,7 +335,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MgrCamera_SwitchTo_Toggle",
+                    "action": "OfcCamera_SwitchTo_Toggle",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -346,7 +346,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MgrCamera_SwitchTo_Toggle",
+                    "action": "OfcCamera_SwitchTo_Toggle",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -357,7 +357,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MgrCamera_SwitchTo_Toggle",
+                    "action": "OfcCamera_SwitchTo_Toggle",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -368,7 +368,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MgrCamera_SwitchTo_Toggle",
+                    "action": "OfcCamera_SwitchTo_Toggle",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -379,7 +379,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MgrCamera_Zoom",
+                    "action": "OfcCamera_Zoom",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -390,7 +390,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MgrCamera_Zoom",
+                    "action": "OfcCamera_Zoom",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -401,7 +401,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MgrCamera_Zoom",
+                    "action": "OfcCamera_Zoom",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -412,7 +412,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MgrCamera_Move",
+                    "action": "OfcCamera_Move",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -423,7 +423,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MgrCamera_UnlockMove",
+                    "action": "OfcCamera_UnlockMove",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

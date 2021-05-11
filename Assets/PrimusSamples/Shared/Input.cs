@@ -17,7 +17,7 @@ namespace PrimusSamples
     ""name"": ""Input"",
     ""maps"": [
         {
-            ""name"": ""SceneMain"",
+            ""name"": ""SceneInit"",
             ""id"": ""8c39651d-4c28-4c81-8083-d078e0c54557"",
             ""actions"": [
                 {
@@ -244,7 +244,7 @@ namespace PrimusSamples
                     ""interactions"": ""Tap""
                 },
                 {
-                    ""name"": ""MgrCamera_SwitchTo_Toggle"",
+                    ""name"": ""OfcCamera_SwitchTo_Toggle"",
                     ""type"": ""Value"",
                     ""id"": ""189a9410-6c69-4fea-9d04-09be30428b24"",
                     ""expectedControlType"": ""Double"",
@@ -252,7 +252,7 @@ namespace PrimusSamples
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""MgrCamera_Zoom"",
+                    ""name"": ""OfcCamera_Zoom"",
                     ""type"": ""Value"",
                     ""id"": ""f1aa78e2-037c-4869-acf9-c87889c9b458"",
                     ""expectedControlType"": ""Axis"",
@@ -260,7 +260,7 @@ namespace PrimusSamples
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""MgrCamera_Move"",
+                    ""name"": ""OfcCamera_Move"",
                     ""type"": ""Value"",
                     ""id"": ""c5da0158-e8f3-4e54-a092-0c867504541c"",
                     ""expectedControlType"": ""Vector2"",
@@ -268,7 +268,7 @@ namespace PrimusSamples
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""MgrCamera_UnlockMove"",
+                    ""name"": ""OfcCamera_UnlockMove"",
                     ""type"": ""Button"",
                     ""id"": ""37cf96fb-6ac8-41a8-88a8-3c323e48ba32"",
                     ""expectedControlType"": ""Button"",
@@ -350,7 +350,7 @@ namespace PrimusSamples
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""MgrCamera_SwitchTo_Toggle"",
+                    ""action"": ""OfcCamera_SwitchTo_Toggle"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -361,7 +361,7 @@ namespace PrimusSamples
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""MgrCamera_SwitchTo_Toggle"",
+                    ""action"": ""OfcCamera_SwitchTo_Toggle"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -372,7 +372,7 @@ namespace PrimusSamples
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""MgrCamera_SwitchTo_Toggle"",
+                    ""action"": ""OfcCamera_SwitchTo_Toggle"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -383,7 +383,7 @@ namespace PrimusSamples
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""MgrCamera_SwitchTo_Toggle"",
+                    ""action"": ""OfcCamera_SwitchTo_Toggle"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -394,7 +394,7 @@ namespace PrimusSamples
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""MgrCamera_Zoom"",
+                    ""action"": ""OfcCamera_Zoom"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -405,7 +405,7 @@ namespace PrimusSamples
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""MgrCamera_Zoom"",
+                    ""action"": ""OfcCamera_Zoom"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -416,7 +416,7 @@ namespace PrimusSamples
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""MgrCamera_Zoom"",
+                    ""action"": ""OfcCamera_Zoom"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -427,7 +427,7 @@ namespace PrimusSamples
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""MgrCamera_Move"",
+                    ""action"": ""OfcCamera_Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -438,7 +438,7 @@ namespace PrimusSamples
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""MgrCamera_UnlockMove"",
+                    ""action"": ""OfcCamera_UnlockMove"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -447,12 +447,12 @@ namespace PrimusSamples
     ],
     ""controlSchemes"": []
 }");
-            // SceneMain
-            m_SceneMain = asset.FindActionMap("SceneMain", throwIfNotFound: true);
-            m_SceneMain_MgrScene_SwitchTo_MAIN = m_SceneMain.FindAction("MgrScene_SwitchTo_MAIN", throwIfNotFound: true);
-            m_SceneMain_MgrScene_SwitchTo_BEACON_EDITOR = m_SceneMain.FindAction("MgrScene_SwitchTo_BEACON_EDITOR", throwIfNotFound: true);
-            m_SceneMain_MgrScene_SwitchTo_BIBLION_SHOWCASE = m_SceneMain.FindAction("MgrScene_SwitchTo_BIBLION_SHOWCASE", throwIfNotFound: true);
-            m_SceneMain_MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE = m_SceneMain.FindAction("MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE", throwIfNotFound: true);
+            // SceneInit
+            m_SceneInit = asset.FindActionMap("SceneInit", throwIfNotFound: true);
+            m_SceneInit_MgrScene_SwitchTo_MAIN = m_SceneInit.FindAction("MgrScene_SwitchTo_MAIN", throwIfNotFound: true);
+            m_SceneInit_MgrScene_SwitchTo_BEACON_EDITOR = m_SceneInit.FindAction("MgrScene_SwitchTo_BEACON_EDITOR", throwIfNotFound: true);
+            m_SceneInit_MgrScene_SwitchTo_BIBLION_SHOWCASE = m_SceneInit.FindAction("MgrScene_SwitchTo_BIBLION_SHOWCASE", throwIfNotFound: true);
+            m_SceneInit_MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE = m_SceneInit.FindAction("MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE", throwIfNotFound: true);
             // SceneBeaconEditor
             m_SceneBeaconEditor = asset.FindActionMap("SceneBeaconEditor", throwIfNotFound: true);
             m_SceneBeaconEditor_MgrCanvas_ToggleEscMenu = m_SceneBeaconEditor.FindAction("MgrCanvas_ToggleEscMenu", throwIfNotFound: true);
@@ -469,10 +469,10 @@ namespace PrimusSamples
             m_Shared_Bcn_Add = m_Shared.FindAction("Bcn_Add", throwIfNotFound: true);
             m_Shared_Bcn_Select = m_Shared.FindAction("Bcn_Select", throwIfNotFound: true);
             m_Shared_Bcn_Delete = m_Shared.FindAction("Bcn_Delete", throwIfNotFound: true);
-            m_Shared_MgrCamera_SwitchTo_Toggle = m_Shared.FindAction("MgrCamera_SwitchTo_Toggle", throwIfNotFound: true);
-            m_Shared_MgrCamera_Zoom = m_Shared.FindAction("MgrCamera_Zoom", throwIfNotFound: true);
-            m_Shared_MgrCamera_Move = m_Shared.FindAction("MgrCamera_Move", throwIfNotFound: true);
-            m_Shared_MgrCamera_UnlockMove = m_Shared.FindAction("MgrCamera_UnlockMove", throwIfNotFound: true);
+            m_Shared_OfcCamera_SwitchTo_Toggle = m_Shared.FindAction("OfcCamera_SwitchTo_Toggle", throwIfNotFound: true);
+            m_Shared_OfcCamera_Zoom = m_Shared.FindAction("OfcCamera_Zoom", throwIfNotFound: true);
+            m_Shared_OfcCamera_Move = m_Shared.FindAction("OfcCamera_Move", throwIfNotFound: true);
+            m_Shared_OfcCamera_UnlockMove = m_Shared.FindAction("OfcCamera_UnlockMove", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -519,44 +519,44 @@ namespace PrimusSamples
             asset.Disable();
         }
 
-        // SceneMain
-        private readonly InputActionMap m_SceneMain;
-        private ISceneMainActions m_SceneMainActionsCallbackInterface;
-        private readonly InputAction m_SceneMain_MgrScene_SwitchTo_MAIN;
-        private readonly InputAction m_SceneMain_MgrScene_SwitchTo_BEACON_EDITOR;
-        private readonly InputAction m_SceneMain_MgrScene_SwitchTo_BIBLION_SHOWCASE;
-        private readonly InputAction m_SceneMain_MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE;
-        public struct SceneMainActions
+        // SceneInit
+        private readonly InputActionMap m_SceneInit;
+        private ISceneInitActions m_SceneInitActionsCallbackInterface;
+        private readonly InputAction m_SceneInit_MgrScene_SwitchTo_MAIN;
+        private readonly InputAction m_SceneInit_MgrScene_SwitchTo_BEACON_EDITOR;
+        private readonly InputAction m_SceneInit_MgrScene_SwitchTo_BIBLION_SHOWCASE;
+        private readonly InputAction m_SceneInit_MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE;
+        public struct SceneInitActions
         {
             private @Input m_Wrapper;
-            public SceneMainActions(@Input wrapper) { m_Wrapper = wrapper; }
-            public InputAction @MgrScene_SwitchTo_MAIN => m_Wrapper.m_SceneMain_MgrScene_SwitchTo_MAIN;
-            public InputAction @MgrScene_SwitchTo_BEACON_EDITOR => m_Wrapper.m_SceneMain_MgrScene_SwitchTo_BEACON_EDITOR;
-            public InputAction @MgrScene_SwitchTo_BIBLION_SHOWCASE => m_Wrapper.m_SceneMain_MgrScene_SwitchTo_BIBLION_SHOWCASE;
-            public InputAction @MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE => m_Wrapper.m_SceneMain_MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE;
-            public InputActionMap Get() { return m_Wrapper.m_SceneMain; }
+            public SceneInitActions(@Input wrapper) { m_Wrapper = wrapper; }
+            public InputAction @MgrScene_SwitchTo_MAIN => m_Wrapper.m_SceneInit_MgrScene_SwitchTo_MAIN;
+            public InputAction @MgrScene_SwitchTo_BEACON_EDITOR => m_Wrapper.m_SceneInit_MgrScene_SwitchTo_BEACON_EDITOR;
+            public InputAction @MgrScene_SwitchTo_BIBLION_SHOWCASE => m_Wrapper.m_SceneInit_MgrScene_SwitchTo_BIBLION_SHOWCASE;
+            public InputAction @MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE => m_Wrapper.m_SceneInit_MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE;
+            public InputActionMap Get() { return m_Wrapper.m_SceneInit; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
             public bool enabled => Get().enabled;
-            public static implicit operator InputActionMap(SceneMainActions set) { return set.Get(); }
-            public void SetCallbacks(ISceneMainActions instance)
+            public static implicit operator InputActionMap(SceneInitActions set) { return set.Get(); }
+            public void SetCallbacks(ISceneInitActions instance)
             {
-                if (m_Wrapper.m_SceneMainActionsCallbackInterface != null)
+                if (m_Wrapper.m_SceneInitActionsCallbackInterface != null)
                 {
-                    @MgrScene_SwitchTo_MAIN.started -= m_Wrapper.m_SceneMainActionsCallbackInterface.OnMgrScene_SwitchTo_MAIN;
-                    @MgrScene_SwitchTo_MAIN.performed -= m_Wrapper.m_SceneMainActionsCallbackInterface.OnMgrScene_SwitchTo_MAIN;
-                    @MgrScene_SwitchTo_MAIN.canceled -= m_Wrapper.m_SceneMainActionsCallbackInterface.OnMgrScene_SwitchTo_MAIN;
-                    @MgrScene_SwitchTo_BEACON_EDITOR.started -= m_Wrapper.m_SceneMainActionsCallbackInterface.OnMgrScene_SwitchTo_BEACON_EDITOR;
-                    @MgrScene_SwitchTo_BEACON_EDITOR.performed -= m_Wrapper.m_SceneMainActionsCallbackInterface.OnMgrScene_SwitchTo_BEACON_EDITOR;
-                    @MgrScene_SwitchTo_BEACON_EDITOR.canceled -= m_Wrapper.m_SceneMainActionsCallbackInterface.OnMgrScene_SwitchTo_BEACON_EDITOR;
-                    @MgrScene_SwitchTo_BIBLION_SHOWCASE.started -= m_Wrapper.m_SceneMainActionsCallbackInterface.OnMgrScene_SwitchTo_BIBLION_SHOWCASE;
-                    @MgrScene_SwitchTo_BIBLION_SHOWCASE.performed -= m_Wrapper.m_SceneMainActionsCallbackInterface.OnMgrScene_SwitchTo_BIBLION_SHOWCASE;
-                    @MgrScene_SwitchTo_BIBLION_SHOWCASE.canceled -= m_Wrapper.m_SceneMainActionsCallbackInterface.OnMgrScene_SwitchTo_BIBLION_SHOWCASE;
-                    @MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE.started -= m_Wrapper.m_SceneMainActionsCallbackInterface.OnMgrScene_SwitchTo_BIBLIOTHECA_SAMPLE;
-                    @MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE.performed -= m_Wrapper.m_SceneMainActionsCallbackInterface.OnMgrScene_SwitchTo_BIBLIOTHECA_SAMPLE;
-                    @MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE.canceled -= m_Wrapper.m_SceneMainActionsCallbackInterface.OnMgrScene_SwitchTo_BIBLIOTHECA_SAMPLE;
+                    @MgrScene_SwitchTo_MAIN.started -= m_Wrapper.m_SceneInitActionsCallbackInterface.OnMgrScene_SwitchTo_MAIN;
+                    @MgrScene_SwitchTo_MAIN.performed -= m_Wrapper.m_SceneInitActionsCallbackInterface.OnMgrScene_SwitchTo_MAIN;
+                    @MgrScene_SwitchTo_MAIN.canceled -= m_Wrapper.m_SceneInitActionsCallbackInterface.OnMgrScene_SwitchTo_MAIN;
+                    @MgrScene_SwitchTo_BEACON_EDITOR.started -= m_Wrapper.m_SceneInitActionsCallbackInterface.OnMgrScene_SwitchTo_BEACON_EDITOR;
+                    @MgrScene_SwitchTo_BEACON_EDITOR.performed -= m_Wrapper.m_SceneInitActionsCallbackInterface.OnMgrScene_SwitchTo_BEACON_EDITOR;
+                    @MgrScene_SwitchTo_BEACON_EDITOR.canceled -= m_Wrapper.m_SceneInitActionsCallbackInterface.OnMgrScene_SwitchTo_BEACON_EDITOR;
+                    @MgrScene_SwitchTo_BIBLION_SHOWCASE.started -= m_Wrapper.m_SceneInitActionsCallbackInterface.OnMgrScene_SwitchTo_BIBLION_SHOWCASE;
+                    @MgrScene_SwitchTo_BIBLION_SHOWCASE.performed -= m_Wrapper.m_SceneInitActionsCallbackInterface.OnMgrScene_SwitchTo_BIBLION_SHOWCASE;
+                    @MgrScene_SwitchTo_BIBLION_SHOWCASE.canceled -= m_Wrapper.m_SceneInitActionsCallbackInterface.OnMgrScene_SwitchTo_BIBLION_SHOWCASE;
+                    @MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE.started -= m_Wrapper.m_SceneInitActionsCallbackInterface.OnMgrScene_SwitchTo_BIBLIOTHECA_SAMPLE;
+                    @MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE.performed -= m_Wrapper.m_SceneInitActionsCallbackInterface.OnMgrScene_SwitchTo_BIBLIOTHECA_SAMPLE;
+                    @MgrScene_SwitchTo_BIBLIOTHECA_SAMPLE.canceled -= m_Wrapper.m_SceneInitActionsCallbackInterface.OnMgrScene_SwitchTo_BIBLIOTHECA_SAMPLE;
                 }
-                m_Wrapper.m_SceneMainActionsCallbackInterface = instance;
+                m_Wrapper.m_SceneInitActionsCallbackInterface = instance;
                 if (instance != null)
                 {
                     @MgrScene_SwitchTo_MAIN.started += instance.OnMgrScene_SwitchTo_MAIN;
@@ -574,7 +574,7 @@ namespace PrimusSamples
                 }
             }
         }
-        public SceneMainActions @SceneMain => new SceneMainActions(this);
+        public SceneInitActions @SceneInit => new SceneInitActions(this);
 
         // SceneBeaconEditor
         private readonly InputActionMap m_SceneBeaconEditor;
@@ -683,10 +683,10 @@ namespace PrimusSamples
         private readonly InputAction m_Shared_Bcn_Add;
         private readonly InputAction m_Shared_Bcn_Select;
         private readonly InputAction m_Shared_Bcn_Delete;
-        private readonly InputAction m_Shared_MgrCamera_SwitchTo_Toggle;
-        private readonly InputAction m_Shared_MgrCamera_Zoom;
-        private readonly InputAction m_Shared_MgrCamera_Move;
-        private readonly InputAction m_Shared_MgrCamera_UnlockMove;
+        private readonly InputAction m_Shared_OfcCamera_SwitchTo_Toggle;
+        private readonly InputAction m_Shared_OfcCamera_Zoom;
+        private readonly InputAction m_Shared_OfcCamera_Move;
+        private readonly InputAction m_Shared_OfcCamera_UnlockMove;
         public struct SharedActions
         {
             private @Input m_Wrapper;
@@ -696,10 +696,10 @@ namespace PrimusSamples
             public InputAction @Bcn_Add => m_Wrapper.m_Shared_Bcn_Add;
             public InputAction @Bcn_Select => m_Wrapper.m_Shared_Bcn_Select;
             public InputAction @Bcn_Delete => m_Wrapper.m_Shared_Bcn_Delete;
-            public InputAction @MgrCamera_SwitchTo_Toggle => m_Wrapper.m_Shared_MgrCamera_SwitchTo_Toggle;
-            public InputAction @MgrCamera_Zoom => m_Wrapper.m_Shared_MgrCamera_Zoom;
-            public InputAction @MgrCamera_Move => m_Wrapper.m_Shared_MgrCamera_Move;
-            public InputAction @MgrCamera_UnlockMove => m_Wrapper.m_Shared_MgrCamera_UnlockMove;
+            public InputAction @OfcCamera_SwitchTo_Toggle => m_Wrapper.m_Shared_OfcCamera_SwitchTo_Toggle;
+            public InputAction @OfcCamera_Zoom => m_Wrapper.m_Shared_OfcCamera_Zoom;
+            public InputAction @OfcCamera_Move => m_Wrapper.m_Shared_OfcCamera_Move;
+            public InputAction @OfcCamera_UnlockMove => m_Wrapper.m_Shared_OfcCamera_UnlockMove;
             public InputActionMap Get() { return m_Wrapper.m_Shared; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -724,18 +724,18 @@ namespace PrimusSamples
                     @Bcn_Delete.started -= m_Wrapper.m_SharedActionsCallbackInterface.OnBcn_Delete;
                     @Bcn_Delete.performed -= m_Wrapper.m_SharedActionsCallbackInterface.OnBcn_Delete;
                     @Bcn_Delete.canceled -= m_Wrapper.m_SharedActionsCallbackInterface.OnBcn_Delete;
-                    @MgrCamera_SwitchTo_Toggle.started -= m_Wrapper.m_SharedActionsCallbackInterface.OnMgrCamera_SwitchTo_Toggle;
-                    @MgrCamera_SwitchTo_Toggle.performed -= m_Wrapper.m_SharedActionsCallbackInterface.OnMgrCamera_SwitchTo_Toggle;
-                    @MgrCamera_SwitchTo_Toggle.canceled -= m_Wrapper.m_SharedActionsCallbackInterface.OnMgrCamera_SwitchTo_Toggle;
-                    @MgrCamera_Zoom.started -= m_Wrapper.m_SharedActionsCallbackInterface.OnMgrCamera_Zoom;
-                    @MgrCamera_Zoom.performed -= m_Wrapper.m_SharedActionsCallbackInterface.OnMgrCamera_Zoom;
-                    @MgrCamera_Zoom.canceled -= m_Wrapper.m_SharedActionsCallbackInterface.OnMgrCamera_Zoom;
-                    @MgrCamera_Move.started -= m_Wrapper.m_SharedActionsCallbackInterface.OnMgrCamera_Move;
-                    @MgrCamera_Move.performed -= m_Wrapper.m_SharedActionsCallbackInterface.OnMgrCamera_Move;
-                    @MgrCamera_Move.canceled -= m_Wrapper.m_SharedActionsCallbackInterface.OnMgrCamera_Move;
-                    @MgrCamera_UnlockMove.started -= m_Wrapper.m_SharedActionsCallbackInterface.OnMgrCamera_UnlockMove;
-                    @MgrCamera_UnlockMove.performed -= m_Wrapper.m_SharedActionsCallbackInterface.OnMgrCamera_UnlockMove;
-                    @MgrCamera_UnlockMove.canceled -= m_Wrapper.m_SharedActionsCallbackInterface.OnMgrCamera_UnlockMove;
+                    @OfcCamera_SwitchTo_Toggle.started -= m_Wrapper.m_SharedActionsCallbackInterface.OnOfcCamera_SwitchTo_Toggle;
+                    @OfcCamera_SwitchTo_Toggle.performed -= m_Wrapper.m_SharedActionsCallbackInterface.OnOfcCamera_SwitchTo_Toggle;
+                    @OfcCamera_SwitchTo_Toggle.canceled -= m_Wrapper.m_SharedActionsCallbackInterface.OnOfcCamera_SwitchTo_Toggle;
+                    @OfcCamera_Zoom.started -= m_Wrapper.m_SharedActionsCallbackInterface.OnOfcCamera_Zoom;
+                    @OfcCamera_Zoom.performed -= m_Wrapper.m_SharedActionsCallbackInterface.OnOfcCamera_Zoom;
+                    @OfcCamera_Zoom.canceled -= m_Wrapper.m_SharedActionsCallbackInterface.OnOfcCamera_Zoom;
+                    @OfcCamera_Move.started -= m_Wrapper.m_SharedActionsCallbackInterface.OnOfcCamera_Move;
+                    @OfcCamera_Move.performed -= m_Wrapper.m_SharedActionsCallbackInterface.OnOfcCamera_Move;
+                    @OfcCamera_Move.canceled -= m_Wrapper.m_SharedActionsCallbackInterface.OnOfcCamera_Move;
+                    @OfcCamera_UnlockMove.started -= m_Wrapper.m_SharedActionsCallbackInterface.OnOfcCamera_UnlockMove;
+                    @OfcCamera_UnlockMove.performed -= m_Wrapper.m_SharedActionsCallbackInterface.OnOfcCamera_UnlockMove;
+                    @OfcCamera_UnlockMove.canceled -= m_Wrapper.m_SharedActionsCallbackInterface.OnOfcCamera_UnlockMove;
                 }
                 m_Wrapper.m_SharedActionsCallbackInterface = instance;
                 if (instance != null)
@@ -755,23 +755,23 @@ namespace PrimusSamples
                     @Bcn_Delete.started += instance.OnBcn_Delete;
                     @Bcn_Delete.performed += instance.OnBcn_Delete;
                     @Bcn_Delete.canceled += instance.OnBcn_Delete;
-                    @MgrCamera_SwitchTo_Toggle.started += instance.OnMgrCamera_SwitchTo_Toggle;
-                    @MgrCamera_SwitchTo_Toggle.performed += instance.OnMgrCamera_SwitchTo_Toggle;
-                    @MgrCamera_SwitchTo_Toggle.canceled += instance.OnMgrCamera_SwitchTo_Toggle;
-                    @MgrCamera_Zoom.started += instance.OnMgrCamera_Zoom;
-                    @MgrCamera_Zoom.performed += instance.OnMgrCamera_Zoom;
-                    @MgrCamera_Zoom.canceled += instance.OnMgrCamera_Zoom;
-                    @MgrCamera_Move.started += instance.OnMgrCamera_Move;
-                    @MgrCamera_Move.performed += instance.OnMgrCamera_Move;
-                    @MgrCamera_Move.canceled += instance.OnMgrCamera_Move;
-                    @MgrCamera_UnlockMove.started += instance.OnMgrCamera_UnlockMove;
-                    @MgrCamera_UnlockMove.performed += instance.OnMgrCamera_UnlockMove;
-                    @MgrCamera_UnlockMove.canceled += instance.OnMgrCamera_UnlockMove;
+                    @OfcCamera_SwitchTo_Toggle.started += instance.OnOfcCamera_SwitchTo_Toggle;
+                    @OfcCamera_SwitchTo_Toggle.performed += instance.OnOfcCamera_SwitchTo_Toggle;
+                    @OfcCamera_SwitchTo_Toggle.canceled += instance.OnOfcCamera_SwitchTo_Toggle;
+                    @OfcCamera_Zoom.started += instance.OnOfcCamera_Zoom;
+                    @OfcCamera_Zoom.performed += instance.OnOfcCamera_Zoom;
+                    @OfcCamera_Zoom.canceled += instance.OnOfcCamera_Zoom;
+                    @OfcCamera_Move.started += instance.OnOfcCamera_Move;
+                    @OfcCamera_Move.performed += instance.OnOfcCamera_Move;
+                    @OfcCamera_Move.canceled += instance.OnOfcCamera_Move;
+                    @OfcCamera_UnlockMove.started += instance.OnOfcCamera_UnlockMove;
+                    @OfcCamera_UnlockMove.performed += instance.OnOfcCamera_UnlockMove;
+                    @OfcCamera_UnlockMove.canceled += instance.OnOfcCamera_UnlockMove;
                 }
             }
         }
         public SharedActions @Shared => new SharedActions(this);
-        public interface ISceneMainActions
+        public interface ISceneInitActions
         {
             void OnMgrScene_SwitchTo_MAIN(InputAction.CallbackContext context);
             void OnMgrScene_SwitchTo_BEACON_EDITOR(InputAction.CallbackContext context);
@@ -797,10 +797,10 @@ namespace PrimusSamples
             void OnBcn_Add(InputAction.CallbackContext context);
             void OnBcn_Select(InputAction.CallbackContext context);
             void OnBcn_Delete(InputAction.CallbackContext context);
-            void OnMgrCamera_SwitchTo_Toggle(InputAction.CallbackContext context);
-            void OnMgrCamera_Zoom(InputAction.CallbackContext context);
-            void OnMgrCamera_Move(InputAction.CallbackContext context);
-            void OnMgrCamera_UnlockMove(InputAction.CallbackContext context);
+            void OnOfcCamera_SwitchTo_Toggle(InputAction.CallbackContext context);
+            void OnOfcCamera_Zoom(InputAction.CallbackContext context);
+            void OnOfcCamera_Move(InputAction.CallbackContext context);
+            void OnOfcCamera_UnlockMove(InputAction.CallbackContext context);
         }
     }
 }
